@@ -20,7 +20,7 @@ export const useRatesData = () => {
       setRatesData({
         state:"success",
         rates,
-        base: "PLN",
+
       });
     }catch {
       setRatesData({
